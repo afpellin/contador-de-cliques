@@ -50,8 +50,9 @@ Demonstrar conhecimento básico e sólido de React
 ✔️ Incrementa o valor a cada clique
 ✔️ Re-renderização automática via state
 ✔️ Código simples, limpo e organizado
-```
+
 📁 Estrutura do Projeto
+```
 contador-de-cliques/
 ├─ src/
 │  ├─ components/
