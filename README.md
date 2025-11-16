@@ -50,7 +50,6 @@ Demonstrar conhecimento básico e sólido de React
 ✔️ Incrementa o valor a cada clique
 ✔️ Re-renderização automática via state
 ✔️ Código simples, limpo e organizado
-
 ```
 📁 Estrutura do Projeto
 contador-de-cliques/
@@ -67,8 +66,9 @@ contador-de-cliques/
 ├─ package.json          # Dependências e scripts
 └─ README.md             # Este arquivo
 ```
-
-🧠 Código do Componente Principal (Contador.js)
+🧠 Código do Componente Principal
+```
+(Contador.js)
 import React, { useState } from "react";
 
 const Contador = () => {
@@ -110,7 +110,7 @@ const styles = {
 };
 
 export default Contador;
-
+```
 ▶️ Como executar o projeto
 🔧 Pré-requisitos
 
