@@ -55,17 +55,17 @@ Demonstrar conhecimento básico e sólido de React
 ```
 contador-de-cliques/
 ├─ src/
-│  ├─ components/
-│  │  └─ Contador.js
-│  ├─ App.js
-│  ├─ index.js
+│  ├─ App.jsx
+│  ├─ main.jsx
 │  ├─ index.css
 │
 ├─ public/
 │  └─ index.html
 │
 ├─ package.json
-└─ .gitignore
+├─ .gitignore
+└─ README.md
+
 ```
 🧠 Código do Componente Principal
 ```
@@ -79,38 +79,59 @@ const Contador = () => {
     setCount((prev) => prev + 1);
   };
 
-  return (
-    <div style={styles.container}>
-      <h1 style={styles.title}>Contador: {count}</h1>
-      <button style={styles.button} onClick={incrementarContador}>
-        Clique aqui
-      </button>
-    </div>
-  );
-};
+  return (// App.jsx
+import { useState } from "react";
 
-const styles = {
-  container: {
-    textAlign: "center",
-    marginTop: "50px",
-    fontFamily: "Arial, sans-serif",
-  },
-  title: {
-    fontSize: "32px",
-    marginBottom: "20px",
-  },
-  button: {
-    backgroundColor: "#4CAF50",
-    color: "white",
-    fontSize: "18px",
-    padding: "12px 25px",
-    border: "none",
-    borderRadius: "8px",
-    cursor: "pointer",
-  },
-};
+export default function App() {
+    const [count, setCount] = useState(0);
 
-export default Contador;
+    return (
+        <div style={{
+            height: "100vh",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            background: "#111",
+            color: "#fff",
+            flexDirection: "column",
+            gap: "20px",
+            fontFamily: "Arial, sans-serif"
+        }}>
+            <h1>Contador de Cliques</h1>
+            <h2>{count}</h2>
+
+            <button
+                onClick={() => setCount(count + 1)}
+                style={{
+                    padding: "12px 25px",
+                    fontSize: "18px",
+                    border: "none",
+                    borderRadius: "8px",
+                    cursor: "pointer",
+                    background: "#4CAF50",
+                    color: "#fff"
+                }}
+            >
+                Clique +1
+            </button>
+
+            <button
+                onClick={() => setCount(0)}
+                style={{
+                    padding: "10px 25px",
+                    fontSize: "16px",
+                    border: "1px solid #fff",
+                    borderRadius: "8px",
+                    cursor: "pointer",
+                    background: "transparent",
+                    color: "#fff"
+                }}
+            >
+                Resetar
+            </button>
+        </div>
+    );
+}
 ```
 ▶️ Como executar o projeto
 🔧 Pré-requisitos
@@ -120,6 +141,7 @@ Node.js instalado
 npm ou yarn instalados
 
 🧪 Passo a passo
+```
 # Clonar o repositório
 git clone https://github.com/afpellin/contador-de-cliques
 
@@ -130,9 +152,8 @@ cd contador-de-cliques
 npm install
 
 # Executar aplicação
-npm start
-
-
+npm run dev
+```
 Acesse no navegador:
 👉 http://localhost:3000
 
