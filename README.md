@@ -1,4 +1,5 @@
-g src="https://img.shields.io/badge/STATUS-CONCLUÍDO-4CAF50?style=for-the-badge" /> <img src="https://img.shields.io/badge/REACT-18.0-61DAFB?style=for-the-badge&logo=react&logoColor=white" /> <img src="https://img.shields.io/badge/JAVASCRIPT-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" /> <img src="https://img.shields.io/badge/LICENÇA-MIT-blue?style=for-the-badge" /> </p>
+🚀 Contador de Cliques — Projeto Final DevStart / SENAI
+<p align="center"> <img src="https://img.shields.io/badge/STATUS-CONCLUÍDO-4CAF50?style=for-the-badge" /> <img src="https://img.shields.io/badge/REACT-18.0-61DAFB?style=for-the-badge&logo=react&logoColor=white" /> <img src="https://img.shields.io/badge/JAVASCRIPT-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" /> <img src="https://img.shields.io/badge/LICENÇA-MIT-blue?style=for-the-badge" /> </p>
 
 Este repositório contém o projeto desenvolvido como atividade final do programa DevStart – SENAI, módulo de Desenvolvimento Front-End com React.
 
