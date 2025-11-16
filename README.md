@@ -121,7 +121,7 @@ npm ou yarn instalados
 
 🧪 Passo a passo
 # Clonar o repositório
-git clone https://github.com/nomedeusuario/contador-de-cliques
+git clone https://github.com/afpellin/contador-de-cliques
 
 # Acessar a pasta
 cd contador-de-cliques
