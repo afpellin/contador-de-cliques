@@ -156,8 +156,7 @@ Este projeto representa a conclusão de uma etapa fundamental no aprendizado de 
 
 👨‍💻 Autor
 
-André Felipe Pellin Bonfim
-Desenvolvedor Full Stack
+André Felipe Pellin Bonfim - Desenvolvedor Full Stack
 
 📧 Email: afpellin@gmail.com
 
@@ -165,7 +164,7 @@ Desenvolvedor Full Stack
 
 🐙 GitHub: https://github.com/afpellin
 
-🏫 Sobre o DevStart — SENAI
+🏫 Sobre o DevStart - SENAI
 
 O DevStart é um programa educacional do SENAI focado em capacitação prática para desenvolvimento de software.
 
