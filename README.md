@@ -51,6 +51,7 @@ Demonstrar conhecimento básico e sólido de React
 ✔️ Re-renderização automática via state
 ✔️ Código simples, limpo e organizado
 
+```
 📁 Estrutura do Projeto
 contador-de-cliques/
 ├─ src/
@@ -65,6 +66,7 @@ contador-de-cliques/
 │
 ├─ package.json          # Dependências e scripts
 └─ README.md             # Este arquivo
+```
 
 🧠 Código do Componente Principal (Contador.js)
 import React, { useState } from "react";
