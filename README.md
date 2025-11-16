@@ -53,20 +53,19 @@ Demonstrar conhecimento básico e sólido de React
 ✔️ Re-renderização automática via state
 ✔️ Código simples, limpo e organizado
 
-📁 Estrutura do Projeto
 contador-de-cliques/
+├─ src/
+│  ├─ components/
+│  │  └─ Contador.js     # Componente principal
+│  ├─ App.js             # Componente raiz
+│  ├─ index.js           # Entrada da aplicação
+│  └─ index.css          # Estilos globais
 │
-├── src/
-│   ├── App.js
-│   ├── Contador.js
-│   ├── index.js
-│   └── index.css
+├─ public/
+│  └─ index.html         # Documento HTML principal
 │
-├── public/
-│   └── index.html
-│
-├── package.json
-└── README.md
+├─ package.json          # Dependências e scripts
+└─ README.md             # Este arquivo
 
 🧠 Código do Componente Principal (Contador.js)
 import React, { useState } from "react";
@@ -130,7 +129,6 @@ npm install
 
 # Executar aplicação
 npm start
-
 
 Acesse no navegador:
 👉 http://localhost:3000
