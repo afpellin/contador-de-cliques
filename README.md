@@ -1,56 +1,57 @@
 🚀 Contador de Cliques — Projeto Final DevStart / SENAI
 
-Este repositório contém o projeto desenvolvido como atividade final do programa DevStart – SENAI
+<p align="center"> <img src="https://img.shields.io/badge/STATUS-CONCLUÍDO-4CAF50?style=for-the-badge" /> <img src="https://img.shields.io/badge/REACT-18.0-61DAFB?style=for-the-badge&logo=react&logoColor=white" /> <img src="https://img.shields.io/badge/JAVASCRIPT-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" /> <img src="https://img.shields.io/badge/LICENÇA-MIT-blue?style=for-the-badge" /> </p>
+
+Este repositório contém o projeto desenvolvido como atividade final do programa DevStart – SENAI, módulo de Desenvolvimento Front-End com React.
+
 🔗 https://devstart.tech/
 
-O objetivo deste desafio é demonstrar domínio dos fundamentos do React, incluindo:
-
-Componentes funcionais
-
-Hooks (useState)
-
-Gerenciamento de estado
-
-Manipulação de eventos
-
-Renderização reativa
+O objetivo é demonstrar domínio dos fundamentos do React, incluindo Hooks, gerenciamento de estado, componentização e eventos.
 
 📌 Descrição do Projeto
 
-O projeto consiste em uma aplicação React simples, limpa e funcional, que implementa um contador de cliques.
+Este projeto consiste em uma aplicação React simples que implementa um contador de cliques.
 
-Toda vez que o botão é pressionado, o valor do contador é incrementado, demonstrando o fluxo fundamental do React:
+Toda vez que o botão é clicado, o valor exibido na tela é incrementado, demonstrando o fluxo básico de reatividade do React:
 
 Estado inicial → Renderização → Evento → Atualização de estado → Re-renderização
 
-Este projeto reforça conceitos essenciais do React e demonstra boas práticas de código, modularização e semântica.
+Um exercício ideal para reforçar lógica, componentização, modularidade e boas práticas no React.
 
 🎯 Objetivos do Exercício
 
-✔️ Criar um componente funcional chamado Contador
-✔️ Definir o estado inicial utilizando o Hook useState
-✔️ Implementar uma função de incremento via onClick
-✔️ Renderizar dinamicamente o valor atualizado
-✔️ Estruturar um projeto React usando Create React App
+Criar um componente funcional chamado Contador
+
+Utilizar o Hook useState para manipular estado
+
+Atualizar o valor exibido dinamicamente
+
+Aplicar evento onClick para incremento
+
+Estruturar o projeto utilizando Create React App
+
+Demonstrar conhecimento básico e sólido de React
 
 🚀 Tecnologias Utilizadas
 
-React.js
+⚛️ React.js
 
-JavaScript ES6+
+🟨 JavaScript ES6+
 
-Create React App
+📦 Create React App
 
-Node.js
+🟦 Node.js
 
-HTML5 & CSS3
+🌐 HTML5
+
+🎨 CSS3
 
 🧩 Funcionalidade Principal
 
-✔️ Exibir o valor atual do contador
-✔️ Incrementar o valor a cada clique
-✔️ Reatividade automática via atualização de estado
-✔️ Código simples, modulado e de fácil leitura
+✔️ Exibe o valor atual do contador
+✔️ Incrementa o valor a cada clique
+✔️ Re-renderização automática via state
+✔️ Código simples, limpo e organizado
 
 📁 Estrutura do Projeto
 contador-de-cliques/
@@ -110,18 +111,18 @@ const styles = {
 
 export default Contador;
 
-▶️ Como Executar o Projeto
+▶️ Como executar o projeto
 🔧 Pré-requisitos
 
 Node.js instalado
 
-npm ou yarn
+npm ou yarn instalados
 
 🧪 Passo a passo
 # Clonar o repositório
 git clone https://github.com/nomedeusuario/contador-de-cliques
 
-# Acessar o diretório
+# Acessar a pasta
 cd contador-de-cliques
 
 # Instalar dependências
@@ -131,43 +132,41 @@ npm install
 npm start
 
 
-A aplicação estará disponível em:
+Acesse no navegador:
 👉 http://localhost:3000
 
-📘 Aprendizados do Projeto
+📘 Aprendizados
 
-Durante o desenvolvimento deste projeto foram reforçados conceitos essenciais como:
+Durante o desenvolvimento deste projeto foram reforçados:
 
-Uso do Hook useState
+Conceitos essenciais do Hook useState
 
 Manipulação de eventos (onClick)
 
-Componentização e modularização
+Componentização e modularidade
 
-Estruturação de arquivos em um projeto React
+Organização de arquivos em projetos React
 
-Compreensão do ciclo de renderização do React
+Ciclo de renderização do React
 
-Boas práticas de clean code
+Boas práticas de código limpo
 
-Este projeto representa a conclusão de etapas fundamentais no aprendizado de React dentro do programa DevStart SENAI.
+Este projeto representa a conclusão de uma etapa fundamental no aprendizado de React dentro do programa DevStart SENAI.
 
 👨‍💻 Autor
 
 André Felipe Pellin Bonfim
 Desenvolvedor Full Stack
 
-📧 E-mail: afpellin@gmail.com
+📧 Email: afpellin@gmail.com
 
 🔗 LinkedIn: https://www.linkedin.com/in/afpellin/
 
 🐙 GitHub: https://github.com/afpellin
 
-🏫 Sobre o DevStart – SENAI
+🏫 Sobre o DevStart — SENAI
 
-O DevStart é um programa educacional do SENAI focado na capacitação prática em desenvolvimento de software, preparando profissionais para o mercado através de projetos reais e aprendizado guiado.
-
-Mais informações em:
+O DevStart é um programa educacional do SENAI focado em capacitação prática para desenvolvimento de software.
 🔗 https://devstart.tech/
 
 📜 Licença
