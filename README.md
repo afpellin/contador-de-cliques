@@ -1,6 +1,4 @@
-🚀 Contador de Cliques — Projeto Final DevStart / SENAI
-
-<p align="center"> <img src="https://img.shields.io/badge/STATUS-CONCLUÍDO-4CAF50?style=for-the-badge" /> <img src="https://img.shields.io/badge/REACT-18.0-61DAFB?style=for-the-badge&logo=react&logoColor=white" /> <img src="https://img.shields.io/badge/JAVASCRIPT-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" /> <img src="https://img.shields.io/badge/LICENÇA-MIT-blue?style=for-the-badge" /> </p>
+g src="https://img.shields.io/badge/STATUS-CONCLUÍDO-4CAF50?style=for-the-badge" /> <img src="https://img.shields.io/badge/REACT-18.0-61DAFB?style=for-the-badge&logo=react&logoColor=white" /> <img src="https://img.shields.io/badge/JAVASCRIPT-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" /> <img src="https://img.shields.io/badge/LICENÇA-MIT-blue?style=for-the-badge" /> </p>
 
 Este repositório contém o projeto desenvolvido como atividade final do programa DevStart – SENAI, módulo de Desenvolvimento Front-End com React.
 
@@ -14,7 +12,7 @@ Este projeto consiste em uma aplicação React simples que implementa um contado
 
 Toda vez que o botão é clicado, o valor exibido na tela é incrementado, demonstrando o fluxo básico de reatividade do React:
 
-Estado inicial → Renderização → Evento → Atualização de estado → Re-renderização
+👉 Estado inicial → Renderização → Evento → Atualização de estado → Re-renderização
 
 Um exercício ideal para reforçar lógica, componentização, modularidade e boas práticas no React.
 
@@ -53,6 +51,7 @@ Demonstrar conhecimento básico e sólido de React
 ✔️ Re-renderização automática via state
 ✔️ Código simples, limpo e organizado
 
+📁 Estrutura do Projeto
 contador-de-cliques/
 ├─ src/
 │  ├─ components/
@@ -130,6 +129,7 @@ npm install
 # Executar aplicação
 npm start
 
+
 Acesse no navegador:
 👉 http://localhost:3000
 
@@ -165,8 +165,5 @@ Desenvolvedor Full Stack
 🏫 Sobre o DevStart — SENAI
 
 O DevStart é um programa educacional do SENAI focado em capacitação prática para desenvolvimento de software.
+
 🔗 https://devstart.tech/
-
-📜 Licença
-
-Este projeto está licenciado sob a MIT License.
