@@ -56,16 +56,16 @@ Demonstrar conhecimento básico e sólido de React
 contador-de-cliques/
 ├─ src/
 │  ├─ components/
-│  │  └─ Contador.js     # Componente principal
-│  ├─ App.js             # Componente raiz
-│  ├─ index.js           # Entrada da aplicação
-│  └─ index.css          # Estilos globais
+│  │  └─ Contador.js
+│  ├─ App.js
+│  ├─ index.js
+│  ├─ index.css
 │
 ├─ public/
-│  └─ index.html         # Documento HTML principal
+│  └─ index.html
 │
-├─ package.json          # Dependências e scripts
-└─ README.md             # Este arquivo
+├─ package.json
+└─ .gitignore
 ```
 🧠 Código do Componente Principal
 ```
