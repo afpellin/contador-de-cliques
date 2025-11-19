@@ -179,8 +179,6 @@ Este projeto representa a conclusão de uma etapa fundamental no aprendizado de 
 
 André Felipe Pellin Bonfim - Desenvolvedor Full Stack
 
-📧 Email: afpellin@gmail.com
-
 🔗 LinkedIn: https://www.linkedin.com/in/afpellin/
 
 🐙 GitHub: https://github.com/afpellin
